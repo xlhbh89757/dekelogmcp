@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "log-mcp": {
+      "command": "node",
+      "args": [ "./src/index.js" ]
+    }
+  }
+}

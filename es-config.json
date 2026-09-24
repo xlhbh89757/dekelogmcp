@@ -1,0 +1,17 @@
+{
+  "esHost": "https://es.derkee.com",
+  "apiKey": "b0VzUE9wNEJwT0d0OU9vRDVVZlg6T2lyamdXWmlUNVc1S2dpZF9SSVhzdw==",
+  "indexPrefix": "springcloud",
+  "services": [
+    "admin",
+    "audit",
+    "auth",
+    "business",
+    "crm",
+    "personnel",
+    "presence",
+    "report",
+    "sys_file",
+    "wechat"
+  ]
+}

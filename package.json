@@ -1,0 +1,20 @@
+{
+  "name": "@derkee/log-mcp",
+  "version": "1.2.10",
+  "description": "德科开发部门内部 Elasticsearch 日志查询 MCP Server",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "log-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.0"
+  },
+  "publishConfig": {
+    "registry": "http://172.16.91.163:8081/repository/npm-hosted/"
+  }
+}
